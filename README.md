@@ -24,7 +24,7 @@ The aim of this project is to automate the processing of sales orders and calcul
 
 ### Implementation Details
 
-The core logic of the project is implemented using pure functional programming concepts in Scala. The project reads data from a `CSV` file, processes each order, calculates the applicable discounts based on the qualifying rules, and inserts the processed data into a `MySQL` database.
+The core logic of the project is implemented using pure `functional programming` concepts in `Scala`. The project reads data from a `CSV` file, processes each order, calculates the applicable discounts based on the qualifying rules, and inserts the processed data into a `MySQL` database.
 
 ### How To Use
 
