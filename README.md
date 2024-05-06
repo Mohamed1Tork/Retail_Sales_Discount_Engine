@@ -24,12 +24,12 @@ The aim of this project is to automate the processing of sales orders and calcul
 
 ### Implementation Details
 
-The core logic of the project is implemented using pure functional programming concepts in Scala. The project reads data from a CSV file, processes each order, calculates the applicable discounts based on the qualifying rules, and inserts the processed data into a MySQL database.
+The core logic of the project is implemented using pure functional programming concepts in Scala. The project reads data from a `CSV` file, processes each order, calculates the applicable discounts based on the qualifying rules, and inserts the processed data into a `MySQL` database.
 
 ### Usage
 
     
-1.  Install dependencies ( Scala, log4j-1.2-api-2.23.1.jar , log4j-core-2.23.1.jar, mysql-connector-java-8.0.11.jar ).
+1.  Install dependencies ( Scala, `log4j-1.2-api-2.23.1.jar` , `log4j-core-2.23.1.jar`, `mysql-connector-java-8.0.11.jar` ).
     
 2.  Configure the `log4j2.xml` file in the `src/main/Resources` directory if needed.
     
@@ -39,12 +39,14 @@ The core logic of the project is implemented using pure functional programming c
        
 5.  View the logs in the `src/main/logs` directory for processing details.
 
-### Row Data
-![Row Data](url_to_your_image)
+## Row Data
+![Row Data](Images/row_data.png)
 
-### Output 
-![Output](url_to_your_image)
 
-### Logs
+## Output 
+![Output](Images/output.png)
+
+
+## Logs
 ![logs](Images/logs.png)
 
