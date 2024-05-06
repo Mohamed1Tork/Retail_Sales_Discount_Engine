@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN">
+  <Appenders>
+    <File name="File" fileName="E:/DM44-Alex/20- Scala/Project/project/src/main/Logs/rules_engine.log" append="true">
+      <PatternLayout pattern="TimeStamp : %d{yyyy-MM-dd HH:mm:ss}  LogLevel : %-5level   Message : %msg%n"/>
+    </File>
+  </Appenders>
+  <Loggers>
+    <Root level="info">
+      <AppenderRef ref="File"/>
+    </Root>
+  </Loggers>
+</Configuration>
