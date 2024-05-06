@@ -4,7 +4,7 @@
 
 This Scala project implements a rule engine for a retail store that qualifies orders' transactions for discounts based on a set of qualifying rules. The project aims to automate the calculation of discounts based on various criteria such as product expiration date, product category, transaction date, quantity, and payment method. The core logic of the project is implemented in a pure functional manner, adhering to functional programming principles.
 
-## Aim
+## Purpose
 
 The aim of this project is to automate the processing of sales orders and calculate discounts to help businesses analyze their sales data more efficiently. By automating these processes, businesses can save time and reduce errors that may occur in manual calculations.
 
@@ -26,7 +26,7 @@ The aim of this project is to automate the processing of sales orders and calcul
 
 The core logic of the project is implemented using pure functional programming concepts in Scala. The project reads data from a `CSV` file, processes each order, calculates the applicable discounts based on the qualifying rules, and inserts the processed data into a `MySQL` database.
 
-### Usage
+### How To Use
 
     
 1.  Install dependencies ( Scala, `log4j-1.2-api-2.23.1.jar` , `log4j-core-2.23.1.jar`, `mysql-connector-java-8.0.11.jar` ).
