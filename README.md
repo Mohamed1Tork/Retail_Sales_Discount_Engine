@@ -46,5 +46,5 @@ The core logic of the project is implemented using pure functional programming c
 ![Output](url_to_your_image)
 
 ### Logs
-![logs](url_to_your_image)
+![logs](Images/logs.png)
 
