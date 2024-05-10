@@ -1,6 +1,6 @@
 
 
-# Functional Programming With Scala
+# Retail Sales Discount Engine
 
 This Scala project implements a rule engine for a retail store that qualifies orders' transactions for discounts based on a set of qualifying rules. The project aims to automate the calculation of discounts based on various criteria such as product expiration date, product category, transaction date, quantity, and payment method. The core logic of the project is implemented in a pure functional manner, adhering to functional programming principles.
 
